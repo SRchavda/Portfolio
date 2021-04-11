@@ -1,0 +1,347 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html {
+    scroll-behavior: smooth;
+}
+::-webkit-scrollbar {
+    width: 0;
+    display: none;
+}
+body {
+    background-color: #2b2e4a;
+    text-align: center;
+    color: whitesmoke;
+    font-family: 'Kristi', cursive;
+    position: relative;
+}
+
+/*#2b2e4a*/
+
+
+.navclass {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 18px;
+    background-color: #17223b;
+}
+
+nav {
+    position: relative;
+    min-height: 10vh;
+    margin: 0 5% 0 5%;
+    width: 90%;
+    text-align: center;
+}
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+a{
+    display: block;
+    color: whitesmoke;
+}
+li {
+    display: inline;
+    float: right;
+}
+li a{
+    text-decoration: none;
+    padding: 3vh;
+}
+nav li a:hover {
+    border-bottom: 1px solid #e84545;
+    transition: 0.44s;
+}
+.logo {
+    font-family: 'Bebas Neue', cursive;
+    letter-spacing: 3px;
+    cursor: pointer;
+    position: absolute;
+    top: 10%;
+    left: 0;
+    float: left;
+    font-size: 45px;
+}
+.dot {
+    color: #e84545;
+}
+.containar {
+    background: linear-gradient(100deg, #0a132b, #2b2e4a);
+    height: 90vh;
+}
+.heading {
+    text-align: center;
+    position: relative;
+    height: 90vh;
+}
+.firsth1 {
+    padding-top: 100px;
+    margin: 0 auto;
+    letter-spacing: 1.5vh;
+    font-size: 40px;
+    text-shadow: -5px 0px 1px #000,
+                3px 0px 1px #e84545,
+                5px -0px 1px #000,
+                -3px -0px 1px #e84545;
+}
+.firsth1 h1{
+    font-weight: lighter;
+}
+.underline {
+    text-decoration: underline #e84545;
+    text-underline-position: under;
+}
+.sentence{
+    margin-top: 200px;
+    padding-bottom: 50px;
+    margin: 0 auto;
+    letter-spacing: 1.5rem;
+    font-size: 26px;
+}
+#chand {
+    position: absolute;
+    right: 100px;
+    top: 10px;
+    width: 200px;
+    height: 200px;
+}
+.sparkling1, .sparkling2, .sparkling3, .sparkling4, .sparkling5 {
+    position: absolute;
+    height: 20px;
+    width: 20px;
+    opacity: 0.5;
+}
+.sparkling1 {
+    left: 20%;
+    top: 10%;
+    opacity: 0.8;
+}
+.sparkling2{
+    left: 5%;
+    top: 20%;
+    opacity: 0.3;
+}
+.sparkling3 {
+    left: 35%;
+    top: 55%;
+    opacity: 0.1;
+}
+.sparkling4 {
+    right: 35%;
+    top: 10%;
+    opacity: 0.2;
+}
+.sparkling5 {
+    right: 10%;
+    top: 60%;
+}
+.stars {
+    position: absolute;
+    right: 30%;
+    height: 50px;
+    width: 50px;
+    opacity: 0.7;
+}
+.birds2 {
+    position: relative;
+    right: 350px;
+    top: -100px;
+    width: 150px;
+    height: 150px;
+}
+.wave {
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    width: 100%;
+    height: 214px;
+}
+
+
+
+.page2 {
+    margin: 5%;
+    position: relative;
+}
+.sech1 h1 {
+    font-size: 50px;
+    font-family: 'Open Sans', sans-serif;
+}
+.page2 p {
+    font-size: 25px;
+    font-family: 'Open Sans', sans-serif;
+}
+.page2 img {
+    margin: 50px;
+    height: 300px;
+    width: 300px;
+}
+
+
+
+
+.page3 {
+    margin: 5%;
+    position: relative;
+}
+.edu h1{
+    margin-top: 120px;
+    font-size: 50px;
+    font-family: 'Open Sans', sans-serif;
+}
+.page3 img {
+    position: absolute;
+    right: 15%;
+    top: 1%;
+    height: 100px;
+    width: 100px;
+}
+.tab{
+    margin: 50px auto 50px auto;
+    align-content: center;
+}
+table {
+    text-align: center;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 25px;
+    border-spacing: 100px 0px;
+}
+tr,td,table {
+    padding: 15px;
+}
+.pr {
+    font-size: 18px;
+}
+
+
+
+.only-photo {
+    position: relative;
+    margin: 5%;
+}
+.paper-plan {
+    position: absolute;
+}
+.paper-plan img {
+    height: 100px;
+    width: 100px;
+}
+
+
+
+.page4 {
+    margin: 5%;
+    position: relative;
+}
+.air-baloon img {
+    position: absolute;
+    right: 10%;
+    height: 150px;
+    width: 150px;
+}
+.skill h1 {
+    margin-top: 120px;
+    font-size: 50px;
+    font-family: 'Open Sans', sans-serif;
+}
+table img {
+    height: 30px;
+    width: 30px;
+}
+
+
+
+.baloons img {
+    position: absolute;
+    left: 1%;
+    bottom: 35%;
+    height: 100px;
+    width: 100px;
+}
+
+
+
+.page5 {
+    margin: 5%;
+    position: relative;
+}
+.work {
+    position: relative;
+    margin-right: 10%;
+    margin-left: 10%;
+    display: flex;
+    flex-direction: column;
+}
+.cards img {
+    height: 300px;
+    width: 300px;
+    object-fit: cover;
+}
+.card {
+    margin: 10px;
+    display: inline-block;
+    border-radius: 24px;
+    overflow: hidden;
+    filter: blur(8px);
+}
+.card:hover {
+    transition: 0.5s;
+    transform: translateY(-10px);
+    filter: blur(0);
+}
+
+
+
+.footdiv {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 20px;
+    background-color: #17223b;
+}
+footer {
+    min-height: 60vh;
+    margin: 0 5% 0 5%;
+    width: 90%;
+    text-align: center;
+}
+.foot h2 {
+    padding: 30px 0 30px 0;
+}
+.foot p {
+    margin: 0 0 30px 0;
+}
+.mailid {
+    margin: 20px 0 0 0;
+}
+.mail-font {
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.mail-font a {
+    text-decoration: none;
+}
+.social a {
+    display: inline-block;
+}
+.social img {
+    margin: 0 20px 0 20px;
+    height: 40px;
+    width: 40px;
+}
+.mailid img {
+    margin-top: 10px;   
+}
+.social img:hover {
+    transition: 0.24s;
+    opacity: 0.5;
+    height: 38px;
+    width: 38px;
+    transform: translateY(3px);
+}
+.last-dot {
+    color: #e84545;
+    letter-spacing: 5px;
+    font-size: 50px;
+}
